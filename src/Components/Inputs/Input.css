@@ -1,0 +1,44 @@
+.input {
+  width: 687px;
+  height: 176px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+  margin-bottom: 16px;
+}
+.input:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+}
+.input-radio {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.input-title {
+  width: 256px;
+  height: 23px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.input-description {
+  width: 466px;
+  height: 41px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 60px;
+  color: #6B6B6C;
+  display: block;
+}

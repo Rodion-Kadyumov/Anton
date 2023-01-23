@@ -1,0 +1,44 @@
+textarea {
+  text-decoration: none;
+  outline: none;
+  resize: none;
+  
+}
+.training {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #0B7572;
+}
+
+.text-block__input, .data-card {
+  width: 40vw;
+  height: 300px;
+  margin-top: 100px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+}
+
+.text-block__btn {
+  width: 206px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  font-family: "Exo 2";
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0B7572;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.text-block__btn:hover {
+  box-shadow: 0 0 10px 0 #FFFFFF inset, 0 0 10px 4px #FFFFFF;
+}
+
+.data {
+  margin-left: 100px;
+}
