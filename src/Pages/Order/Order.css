@@ -6,6 +6,7 @@ textarea {
 }
 .training {
   width: 100vw;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -25,6 +26,7 @@ textarea {
   height: 50px;
   background: #FFFFFF;
   border-radius: 3px;
+  border: none;
   font-family: "Exo 2";
   font-weight: 600;
   font-size: 16px;
@@ -37,6 +39,8 @@ textarea {
 }
 .text-block__btn:hover {
   box-shadow: 0 0 10px 0 #FFFFFF inset, 0 0 10px 4px #FFFFFF;
+  background: #0B7572;
+  color: #FFFFFF;
 }
 
 .data {

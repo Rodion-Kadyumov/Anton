@@ -22,25 +22,21 @@ function Order () {
     <div className='training'>
       <div className='text'>
         <textarea className='text-block__input' ref={inputDescription} type="text" />
-      </div>
-            
-      
-
+      </div>      
       <div className='data'>
-      <div className='data-card'>
+        <div className='data-card'>
           {text.map((text, key) => {
             return (
               <div key={key} className=''>
                 <p>{text.description}</p>
-          </div>
+              </div>
             )
           })}
         </div>
       </div>
-
-        <button onClick={handleCreateRequest} className='text-block__btn'>Добавить</button>      
+      <button onClick={handleCreateRequest} className='text-block__btn'>Добавить</button>      
     </div>
   );
 }
 
-  export default Order;
+export default Order;
